@@ -7,7 +7,7 @@ public class SecondLargest {
         int[] arr = new int[]{8, 8, 8, 8, 8, 6, 8};
         Arrays.sort(arr);
         int n = arr.length;
-        int largest = arr[n - 1];
+        int largest = arr[n-1];
         int secondLargest = 0;
 
         for (int i = n-2; i >= 0; i--) {
