@@ -2,7 +2,7 @@ package Array;
 
 import java.util.Arrays;
 
-public class SecondLargest {
+public class SecondLargest_BruteForce {
     public static void main(String[] args) {
         int[] arr = new int[]{8, 8, 8, 8, 8, 6, 8};
         Arrays.sort(arr);

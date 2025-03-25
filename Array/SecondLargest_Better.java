@@ -1,6 +1,6 @@
 package Array;
 
-public class SecondLargestOptimized {
+public class SecondLargest_Better {
     public static void main(String[] args) {
         int[] arr = new int[] {1,5,5,5,5,5};
         int n = arr.length;
