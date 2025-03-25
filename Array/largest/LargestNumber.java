@@ -1,4 +1,4 @@
-package Array;
+package Array.largest;
 
 public class LargestNumber {
     public static void main(String[] args) {

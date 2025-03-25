@@ -1,4 +1,4 @@
-package Array;
+package Array.secondLargest;
 
 import java.util.Arrays;
 

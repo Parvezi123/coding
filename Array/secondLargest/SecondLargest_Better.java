@@ -1,4 +1,4 @@
-package Array;
+package Array.secondLargest;
 
 public class SecondLargest_Better {
     public static void main(String[] args) {
