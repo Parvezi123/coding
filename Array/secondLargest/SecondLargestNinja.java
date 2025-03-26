@@ -1,4 +1,4 @@
-package Array.secondSmallest;
+package Array.secondLargest;
 
 public class SecondLargestNinja {
     public static void main(String[] args) {
