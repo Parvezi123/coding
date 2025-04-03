@@ -17,13 +17,16 @@ public class RemoveDuplicateElements {
         {
             for(int j=i+1;j<n;j++)
             {
-                if(arr[i]!=arr[j] && isDuplicateExists)
+
+                if(arr[i]==arr[j])
                 {
                     r=r+1;
+                    isDuplicateExists = true;
+                } else if (arr[i] != arr[j] && isDuplicateExists)
+                {
                     arr[r] = arr[j];
-                    break;
+//                    r=r+1;
                 }
-                else isDuplicateExists = true;
             }
         }
         return r;
