@@ -6,8 +6,8 @@ public class RemoveDuplicateElements {
     public static void main(String[] args) {
         int[] arr = new int[] {0,0,0,1,2,2,3,3};
         int uniqueArraySize = removeDuplicateElementsInArray(arr, arr.length);
-//        System.out.println("Unique Elements in an Array: " + uniqueArraySize);
-//        System.out.println("The unique Elements Array: " + Arrays.toString(arr));
+        System.out.println("Unique Elements in an Array: " + uniqueArraySize);
+        System.out.println("The unique Elements Array: " + Arrays.toString(arr));
     }
 
     private static int removeDuplicateElementsInArray(int[] arr, int n) {
