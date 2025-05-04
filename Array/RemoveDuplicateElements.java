@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class RemoveDuplicateElements {
     public static void main(String[] args) {
-        int[] arr = new int[]{4, 4, 4, 4, 4, 4};
+        int[] arr = new int[]{4, 4, 5, 5, 6, 6, 11, 11, 11};
         System.out.println("Original Array Elements: " + Arrays.toString(arr));
         System.out.println("Unique Array Elements Size: " + removeDuplicateElementsInArray(arr));
         System.out.println("First Unique Array Elements: " + Arrays.toString(arr));
