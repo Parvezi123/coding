@@ -2,7 +2,7 @@ package Array.rotateArray;
 
 import java.util.Arrays;
 
-public class RotateArrayByLeft {
+public class LeftRotateArrayByOne {
     public static void main(String[] args) {
         int[] arr = new int[] {2,4,6,8,10};
         System.out.println("Original Array: " + Arrays.toString(arr));
